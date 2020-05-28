@@ -1,0 +1,26 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/smarthome/xsub/val_data_bone.npy
+  label_path: ./data/smarthome/xsub/val_label.pkl
+  debug: False
+
+# model
+model: model.agcn.Model
+model_args:
+  num_class: 31
+  num_point: 15
+  num_person: 1
+  graph: graph.smarthome.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+# test
+phase: test
+device: [0,1,2,3]
+test_batch_size: 128
+weights: ./runs/smarthome_cs_agcn_bone-39-26680.pt   
+
+work_dir: ./work_dir/smarthome/xsub/agcn_test_bone
+model_saved_name: ./runs/smarthome_cs_agcn_test_bone
+save_score: True
