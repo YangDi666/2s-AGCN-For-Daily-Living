@@ -3,9 +3,8 @@ Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recog
 
 # Note
 
-~~PyTorch version should be 0.3! For PyTorch0.4 or higher, the codes need to be modified.~~ \
-Now we have updated the code to >=Pytorch0.4. \
-A new model named AAGCN is added, which can achieve better performance. 
+~~PyTorch version >=Pytorch0.4. \
+
 
 # Data Preparation
 
@@ -27,6 +26,7 @@ A new model named AAGCN is added, which can achieve better performance.
  - Preprocess the data with
   
     `cd data_gen`
+
     `python smarthome_gendata.py`
   
 
@@ -53,6 +53,7 @@ Then combine the generated scores with:
     `python ensemble.py --datasets smarthome/xsub`
 
 For evaluation:
+
     `python evaluation.py runs/smarthome_cs_agcn_test_joint_right.txt 31`
      
 # Reference
