@@ -3,7 +3,7 @@ Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recog
 
 # Note
 
-~~PyTorch version >=Pytorch0.4. \
+PyTorch version >=Pytorch0.4. \
 
 
 # Data Preparation
@@ -13,15 +13,16 @@ Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recog
  
         -data\  
           -smarthome_raw\  
-            -marthome_skeletons\
+            -smarthome_skeletons\
              - ... .json
                ... .json
                ...
             
 - For other datasets:
 
-[NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) 
-[Skeleton-Kinetics](https://github.com/yysijie/st-gcn)
+- [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) 
+
+- [Skeleton-Kinetics](https://github.com/yysijie/st-gcn)
 
  - Preprocess the data with
   
