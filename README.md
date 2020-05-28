@@ -45,7 +45,7 @@ To ensemble the results of joints and bones, run test firstly to generate the sc
 
     `python main.py --config ./config/smarthome-cross-subject/test_bone.yaml`
     
-There are 3 [pre-trained models](https://drive.google.com/drive/folders/18S_GjkZXthEv0Hv7JBzUN4Yo0env9bZN?usp=sharing) for 3 versions of skeletons. For testing them, change the path in the config files.
+There are 3 [pre-trained models](https://drive.google.com/drive/folders/18S_GjkZXthEv0Hv7JBzUN4Yo0env9bZN?usp=sharing) for 3 versions of skeletons. For testing them, change the model path in the config files.
 
 Then combine the generated scores with: 
 
