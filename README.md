@@ -20,8 +20,8 @@ Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recog
             
 - For other datasets:
 
-[https://github.com/shahroudy/NTURGB-D]: NTU-RGB+D
-[https://github.com/yysijie/st-gcn]: Skeleton-Kinetics
+[NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) 
+[Skeleton-Kinetics](https://github.com/yysijie/st-gcn)
 
  - Preprocess the data with
   
