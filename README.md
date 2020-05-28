@@ -20,9 +20,9 @@ PyTorch version >=Pytorch0.4. \
             
 - For other datasets:
 
-- [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) 
+-- [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) 
 
-- [Skeleton-Kinetics](https://github.com/yysijie/st-gcn)
+-- [Skeleton-Kinetics](https://github.com/yysijie/st-gcn)
 
  - Preprocess the data with
   
